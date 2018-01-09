@@ -14,6 +14,9 @@ p{
 nav{
 font-family: 'Montserrat', sans-serif;
 }
+main.page-content{
+  padding-top: 69px;
+}
 .sitename{
 font-weight: 300;
 font-size: 150%;
@@ -54,7 +57,7 @@ body{
     rgba(255, 255, 255, 0.95), 
     rgba(255, 255, 255, 0.95)
     ),
-    url('AgedPaperBG.jpg');
+    url('https://res.cloudinary.com/solar-innovations-inc/image/upload/v1515523101/assets/e5dh3zjehiyfal6oqbir.jpg');
 
 }
 
@@ -83,4 +86,14 @@ body{
 }
 .sitename{
     // color:#F47B28!important;
+}
+
+.footer{
+  // background:
+  // radial-gradient(
+  //   rgba(255, 255, 255, .7) 3%, 
+  //   rgba(255, 255,255, 1) 
+  // ),
+  //   url('https://res.cloudinary.com/solar-innovations-inc/image/upload/v1515513129/conservatories/czoc5dsdnk2nisnagdzt.jpg');
+  background-size:cover;background-position:center;
 }
