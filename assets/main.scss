@@ -1,0 +1,36 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+body{
+    font-family:'Open Sans', sans-serif;
+}
+nav{
+font-family: 'Montserrat', sans-serif;
+}
+.sitename{
+font-weight: 300;
+font-size: 150%;
+padding-left: 0px;
+color: #F47B28;
+}
+#navbar > ul.navbar-nav.mr-auto > li > a{
+color: #F47B28;
+}
+.grey{
+color: #7F7F7F;
+}
+.bold{
+font-weight: 500;
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    padding-bottom:5%;
+    margin-right: 0;
+}
+.site-header{
+    border-top:none;
+}
