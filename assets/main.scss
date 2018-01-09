@@ -6,6 +6,10 @@
 
 body{
     font-family:'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+p{
+  font-size: 1.1em;
 }
 nav{
 font-family: 'Montserrat', sans-serif;
@@ -33,4 +37,50 @@ font-weight: 500;
 }
 .site-header{
     border-top:none;
+}
+
+.eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.jumbotron{
+  margin-bottom:0px!important;
+}
+body{
+    background:
+    linear-gradient(
+    rgba(255, 255, 255, 0.95), 
+    rgba(255, 255, 255, 0.95)
+    ),
+    url('AgedPaperBG.jpg');
+
+}
+
+.grad-orange{
+  background:
+  linear-gradient(
+    to bottom right,
+    rgba(245, 136,61, .91),
+    rgba(244, 123, 40, 1) 
+  );
+  color: white;
+}
+
+.requestquote{
+  border: #428e42  solid 50px;
+  border-right:none;
+  border-left:none;
+  background:white;
+} 
+
+.greenLink{
+  color: #428e42;
+}
+.greyLink{
+  color:#7F7F7F;
+}
+.sitename{
+    // color:#F47B28!important;
 }
