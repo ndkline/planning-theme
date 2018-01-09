@@ -1,8 +1,10 @@
 <header  role="banner">
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
+    {% assign pages = site.pages | sort: 'weight' %} 
+    {% assign default_paths = pages | map: "path"  %}
+    {% assign page_paths = site.header_pages | default: default_paths   %}
     
-  
+ 
+
     {% if page_paths %}
      
       <nav class="navbar navbar-expand-lg justify-content-between navbar-light fixed-top" style="background:rgba(255,255,255,.9)">
@@ -24,7 +26,7 @@
               </li>
               {% endif %}
               {% endif %}
-            {% endfor %}
+            {% endfor %} 
             
           
 
